@@ -1,0 +1,32 @@
+{
+  "name": "challenge-for-larry",
+  "version": "1.0.0",
+  "description": "automatizacion de pruebas para servicios web y front para baufest",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:frontEndTests": "cypress run --browser chrome --headless --spec 'cypress/integration/test/frontEndTest.spec.js'",
+    "cy:run:webServicesTests": "cypress run --browser chrome --headless --spec 'cypress/integration/test/webServicesTests.spec.js'",
+    "cy:allure:run": "npx cypress run --config video=false --env allure=true",
+    "create-report": "allure generate --clean && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marygtk/challenge-for-larry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marygtk/challenge-for-larry/issues"
+  },
+  "homepage": "https://github.com/marygtk/challenge-for-larry#readme",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.3.6",
+    "cypress": "^6.6.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^1.6.2",
+    "xpath": "0.0.32"
+  }
+}

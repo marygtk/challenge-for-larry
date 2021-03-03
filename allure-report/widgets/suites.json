@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "159fdb8d5f6a6823352306344743fc9c",
+    "name" : "Suite de pruebas para la automatización del front end",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
+    }
+  } ]
+}

@@ -1,0 +1,121 @@
+[ {
+  "uid" : "71d8b68e23e14070",
+  "name" : "Consultar la mascota creada previamente, validar error 404 en la devolucion de la respuesta",
+  "time" : {
+    "start" : 1614802986038,
+    "stop" : 1614802986233,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ebbc8cc5b9938cb",
+  "name" : "Modificar la mascota previamente creada",
+  "time" : {
+    "start" : 1614802985646,
+    "stop" : 1614802985838,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "635ac55c4d6d7469",
+  "name" : "Validar que el servicio de modificación no tarde menos de 30 mil milisegundos",
+  "time" : {
+    "start" : 1614802984851,
+    "stop" : 1614802985042,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef3072c61b89bf91",
+  "name" : "desloguearse en la pagina",
+  "time" : {
+    "start" : 1614802980462,
+    "stop" : 1614802980794,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d36d28ebc049be7",
+  "name" : "Validar que el usuario dado de alta pueda logearse y que se logee efectivamente",
+  "time" : {
+    "start" : 1614802978856,
+    "stop" : 1614802980453,
+    "duration" : 1597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a24aa82f5c7fdb6f",
+  "name" : "  Validar que el servicio de creación devuelva un 201 porque está creando un nuevo registro",
+  "time" : {
+    "start" : 1614802985447,
+    "stop" : 1614802985643,
+    "duration" : 196
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e478bb220b4a7569",
+  "name" : "Validar casuistica en la que el id de la mascota sea de 20 digitos",
+  "time" : {
+    "start" : 1614802986237,
+    "stop" : 1614802986432,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cb1cafe9352fccb",
+  "name" : "Validar que el servicio de consulta no tarde menos de 30 mil milisegundos",
+  "time" : {
+    "start" : 1614802985047,
+    "stop" : 1614802985240,
+    "duration" : 193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43986aa251e9e0d7",
+  "name" : "Validar que el servicio de creación no tarde menos de 30 mil milisegundos",
+  "time" : {
+    "start" : 1614802983687,
+    "stop" : 1614802984846,
+    "duration" : 1159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a383a1af895aecaa",
+  "name" : "Validar error al usar un metodo incorrecto al invocar la modificación la mascota previamente creada",
+  "time" : {
+    "start" : 1614802985843,
+    "stop" : 1614802986035,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "362257b72abfce36",
+  "name" : "dar un usuario de alta",
+  "time" : {
+    "start" : 1614802977598,
+    "stop" : 1614802978846,
+    "duration" : 1248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e6efbe38dea7bb8",
+  "name" : "Validar estado de la petición al crear una nueva mascota, y en caso de que el servicio responda un 400 0 500 no se ejecutarian las asersiones",
+  "time" : {
+    "start" : 1614802985243,
+    "stop" : 1614802985443,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

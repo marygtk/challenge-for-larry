@@ -1,0 +1,69 @@
+{
+  "frontTestValues":{
+    "baseUrl": "https://www.demoblaze.com/index.html",
+    "loginId":"#login2",
+    "usernameId":"#loginusername",
+    "username":"JonathanLarry",
+    "passwordId":"#loginpassword",
+    "password":"Larry2021!",
+    "logInButtonId":"#logInModal > div > div > div.modal-footer > button.btn.btn-primary",
+    "signUpId":"#signin2",
+    "signUsernameField":"#sign-username",
+    "signpasswordField":"#sign-password",
+    "signButton":"#signInModal > div > div > div.modal-footer > button.btn.btn-primary",
+    "logOutId":"#logout2",
+    "laptopId":"//a[contains(text(),'Laptops')]",
+    "laptopUrlAssertion":"https://www.demoblaze.com/index.html#",
+    "productXpath":"//body/div[@id='contcont']/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]",
+    "productUrl":"https://www.demoblaze.com/prod.html?idp_=8",
+    "productNameSelector":"#tbodyid > h2",
+    "productName":"Sony vaio i5",
+    "productXpathInTheCart":"//td[contains(text(),'Sony vaio i5')]",
+    "addProductButton":"#tbodyid > div.row > div > a",
+    "cartSelector":"#navbarExample > ul > li:nth-child(4) > a"
+  },
+  "webservices":{
+    "addPetUrl":"https://petstore.swagger.io/v2/pet",
+    "ContentType":{
+      "Content-Type": "application/json"
+    },
+    "bodyRequest":{
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    "getPetUrl":"https://petstore.swagger.io/v2/pet/",
+    "updatePetUrl":"https://petstore.swagger.io/v2/pet/",
+    "bodyRequestUpdate":{
+      "id": 0,
+      "category": {
+        "id": 0,
+        "name": "rottweiller"
+      },
+      "name": "Topper",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+     }
+  }
+}
